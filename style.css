@@ -1,0 +1,281 @@
+.backgroudcolor{
+    background-color: #F1F1F0;
+}
+.navbar{
+   padding: 10px; 
+}
+.navbarbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -120px;
+    text-decoration: none;
+}
+.navbarbutton li{
+    margin: 70px;
+    color: #ceceea;
+    list-style: none;
+}
+.navbarbutton li a {
+    text-decoration: none;
+    color: rgb(243, 130, 130);
+    font-size: larger;
+}
+hr{
+  width:100% ;
+  opacity: 0.5;
+  margin-top:-25px;
+}
+.main{
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+    text-wrap: wrap;
+    width: 50%;
+    word-spacing: 5px;
+}
+.pictures{
+    margin-top: 60px;
+}
+
+.pictures ul {
+    display: flex;
+    list-style-type: none;
+    max-width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+.pictures li {
+    margin-right: 0px; 
+    padding-left: 10px;
+    
+}
+.pictures img {
+    max-width: 100%;            /* Responsive images */
+    height: 80%;               /* Maintain aspect ratio */
+    display: block;             /* Removes inline spacing */
+}
+.pictures li:first-child{
+    margin-left: 130px;
+}
+
+.pictures li:last-child {
+    margin-right: 0px;            
+    padding-right: 80px;
+}
+.pictures li a{
+    background-color:#F1F1F0 ;
+}
+
+.svg{
+    float: left;
+    margin: 40px;
+    margin-top: 15%;
+    margin-left:50px ;
+    text-wrap: wrap;
+    
+}
+.svg h1{
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.svg p{
+    margin: auto;
+    margin-top: 20px;
+}
+.svg img{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: baseline;
+    text-align: center;
+   width: 70px;
+   height: 70px;
+   margin-left: 20px;
+}
+
+.pictures2{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 35%;
+}
+.pictures2 li{
+    margin-right: 0px; 
+    padding-left: 10px;
+
+}
+.pictures2 img{
+    max-width: 100%;            /* Responsive images */
+    height: 80%;               /* Maintain aspect ratio */
+    display: block; 
+}
+.pictures2 li:first-child{
+    margin-left: 100px;
+}
+
+.pictures2 li:last-child {
+    margin-right: 0px;            
+    padding-right: 80px;
+}
+
+.arrival {
+    text-align: left;
+    margin-top: 100px;
+    
+}
+
+/* Set the images in a row */
+.pictures3 {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    gap: 40px; /* Space between each image */
+    padding: 0;
+}
+
+.pictures3 li {
+    list-style-type: none;
+}
+
+.pictures3 img {
+    width: 300px; /* Set a specific width if needed */
+    height: 400px; /* Maintain aspect ratio */
+}
+.winterbox{
+    height: 70%;
+    width: 100%;
+    background-color:#F1F1F0;
+    margin-top: 200px;
+}
+.wintercollection{
+    margin: auto;
+    padding: 50px;
+    width: 1300px;
+    height: 634px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap: wrap;
+}
+.wintercollection img{
+    width: 640px;
+    height: 630px;
+}
+.wintercollection h1{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+.text-content {
+    max-width: 800px; /* Limit text width if needed */
+    padding: 80px;
+}
+
+.text-content h1 {
+    margin-top: -20px; /* Remove any default top margin */
+    font-size: 50px;
+    text-align: left;
+    margin-left: -24px;
+}
+.text-content p{
+    color: rgb(144, 140, 140);
+    font-size: 25px;
+}
+.text-content button{
+    margin-left: auto;
+    margin-top: 40px;
+    background-color: black;
+    width: 200px;
+    height: 50px;
+    font-size: 16px; /* Adjust font size as needed */
+    border: none;
+    border-radius: 5px; /* Optional rounded corners */
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.text-content button:hover{
+    background-color:rgb(141, 141, 233);
+}
+.text-content2 {
+    max-width: 800px; /* Limit text width if needed */
+    padding: 80px;
+    text-align: center;
+}
+.iconpic {
+    display: flex;               /* Use Flexbox */
+    justify-content: center;     /* Center images horizontally */
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 15%;                   /* Equal space between images */
+    padding: 20px;               /* Optional padding for the container */
+}
+
+.iconpic img {
+    max-width: 400px;           /* Set a maximum width for images */
+    height: auto;             /* Maintain aspect ratio */
+}
+.signup{
+    max-width: 100%; /* Limit text width if needed */
+    padding: 80px;
+    text-align: center;
+    
+}
+.signup input{
+    width: 850px;
+    height: 45px;
+    padding-left:20px;
+    border: 1px ;
+}
+.signup button{
+    width: 872px;
+    height: 45px;
+    padding-left:20px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+.instagram img{
+    width: 240px;
+    height: 240px;
+}
+.instagram button{
+    width: 265px;
+    height: 40px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    margin: auto;
+    margin-left: 600px;
+    margin-top: -150px;
+    
+}
+.footertext{
+    margin-left: 80px;
+    max-width: 350px;
+    text-align: left;
+    text-wrap: wrap;
+    font-size: 20px;
+    margin-top: 80px;
+    
+
+}
+.lastfooter{
+    margin-left: 80px;
+}
+.lastfooter p {
+    display: inline;
+    padding-top:-50px;
+    
+    
+}
+
+.lastfooter img{
+    margin-top: 30px;
+
+    
+}
